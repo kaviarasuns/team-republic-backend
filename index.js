@@ -43,6 +43,6 @@ app.use("/api/users", usersRoute);
 app.use("/api/posts", postRoute);
 app.use("/api/categories", categoryRoute);
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Server running at port 5000`);
 });
